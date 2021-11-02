@@ -1,0 +1,250 @@
+<main>
+    <header id="header">
+
+        <link rel="stylesheet" href="style.css">
+
+        <div class="heart"></div>
+
+        <br>
+        <br>
+        <nav id="nav-bar">
+            <h1> Lobster Portal </h1>
+            <a class="nav-link" href="#stock"> Buying Lobsters </a> &nbsp; &nbsp; &nbsp;
+            <a class="nav-link" href="#facts"> Facts </a> &nbsp; &nbsp; &nbsp;
+            <a class="nav-link" href="#ownertips"> Owner Tips </a> &nbsp; &nbsp; &nbsp;
+        </nav>
+
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <body>
+
+        <section id="stock">
+            <h2> Buying Lobsters and the implications of such </h2>
+            <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+
+            <div class="figure">
+                <img class="Sirv image-main"
+                    src="https://media.istockphoto.com/photos/big-black-lobster-in-bergen-food-market-picture-id1033264112?s=612x612"
+                    data-src="https://media.istockphoto.com/photos/big-black-lobster-in-bergen-food-market-picture-id1033264112?s=612x612"
+                    width="677px" height="381px">
+                <img class="Sirv image-hover"
+                    data-src="https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc4NTk5MjE3Nzg0NTQz/hith-lobster-175508181-1-2.jpg"
+                    width="677px" height="381px">
+            </div>
+            <br>
+            <p> Lobsters can be sold for food. This is not ideal, however. You should only ever purchase lobsters for
+                recreational uses such as opera singing, walking and filing tax returns. People who eat lobsters are
+                monsters and should be shot, thier families should then be charged for the ammunition. </p>
+        </section>
+
+        <section id="facts">
+            <div id="facts" align="left" style="width: 100%; overflow: hidden">
+                <h3> Cool Lobster facts and behind the scenes stuff </h3>
+                <iframe id="video" width="677" height="381" src="https://www.youtube.com/embed/vvxmH-YRR5I"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <br>
+                <p> Lobsters are aerodynamic af. They beat the Jeep Wrangler and many other modern car designs when
+                    measured on thier aerodynamic properties. This video provides a brief demonstration of them in
+                    action. Lobster are bioligically immortal. This means they do not grow weaker as they age. Their
+                    celluar replication remains the same throughout thier lives. Some idiots think there could be ship
+                    sized lobsters lurking the deep abyss. You should not listen to these people! </p>
+            </div>
+        </section>
+
+        <section id="ownertips">
+            <h4> Tips and tricks for all levels of lobster enjoyers </h4>
+            <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+            <div class="figure">
+                <img class="Sirv image-main"
+                    src="https://64.media.tumblr.com/cc4ee2ba5e600052b49117334017e444/tumblr_ph6u0eNEoT1v1tlts_1280.jpg"
+                    data-src="https://64.media.tumblr.com/cc4ee2ba5e600052b49117334017e444/tumblr_ph6u0eNEoT1v1tlts_1280.jpg"
+                    width="677px" height="381px">
+                <img class="Sirv image-hover"
+                    data-src="https://pbs.twimg.com/media/C5bafkkUwAIUxzD?format=jpg&name=small" width="677px"
+                    height="381px">
+            </div>
+            <br>
+            <p> Lobsters may not look nice to cuddle, but just look how much this lady is enjoying her crustly friends
+                company! Did you know, lobsters love being cuddled much like puppies and kittens. You can also train
+                your lobby to do tricks such as, grocery shop, consume bodies of your enemies, fetch and even badysit
+                your kids. They are just so cute! </p>
+        </section>
+
+    </body>
+    <br>
+    <footer>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <input id="text" type="text" name="text" placeholder="Questions" class="text" required> </input>
+            <br>
+            <input id="email" type="email" name="email" placeholder="Email address" class="email" required> </input>
+            <br>
+            <input id="submit" type="submit" value="Send Now" class="submit"> </input>
+        </form>
+    </footer>
+</main>
+<style>
+    main {
+        background-color: rgb(120, 129, 134);
+
+    }
+
+    header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 6%;
+        padding: 25px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255, 246, 246);
+        opacity: 0.7;
+        font-family: fantasy;
+    }
+
+    @Media only screen and (max-width: 500px) {
+        body {
+            flex-wrap: wrap;
+        }
+    }
+
+    /*
+      Rollover Image
+     */
+    .figure {
+        position: relative;
+        width: 677px;
+        /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+    }
+
+    .figure img.image-hover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: fill;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+
+    .figure:hover img.image-hover {
+        opacity: 1;
+    }
+
+    /*
+      Rollover Image
+     */
+    .figure1 {
+        position: relative;
+        width: 677px;
+        /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+    }
+
+    .figure img.image-hover1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: fill;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+
+    .figure:hover img.image-hover1 {
+        opacity: 1;
+    }
+
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .heart {
+        background: red;
+        position: relative;
+        margin-left: 20px;
+        height: 30px;
+        width: 30px;
+        /* Animation */
+        transform: rotate(-45deg) scale(1);
+        animation: pulse 2s linear infinite;
+    }
+
+
+    .heart::after {
+        /* background:blue; */
+        background: inherit;
+        border-radius: 50%;
+        /* To make circle */
+        content: '';
+        position: absolute;
+        /* top: -100px;*/
+        top: -50%;
+        /* Inherit properties of parent */
+        /* left: -100px; */
+        left: 0;
+        height: 30px;
+        width: 30px;
+    }
+
+    .heart::before {
+        /*  background:green; */
+        background: inherit;
+        border-radius: 50%;
+        /* To make circle */
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -50%;
+        /* Inherit properties of parent */
+        height: 30px;
+        width: 30px;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: rotate(-45deg) scale(1);
+            opacity: 0.8;
+        }
+
+        /*
+    10% {
+        transform: rotate(-45deg) scale(1.3);
+    }
+    20% {
+        transform: rotate(-45deg) scale(0.9);
+    }
+    30% {
+        transform: rotate(-45deg) scale(1.2);
+    }
+    40% {
+        transform: rotate(-45deg) scale(0.9);
+    }*/
+        50% {
+            transform: rotate(-45deg) scale(1.3);
+            opacity: 1;
+        }
+
+        /*
+    60% {
+        transform: rotate(-45deg) scale(0.95);
+    }
+    70% {
+        transform: rotate(-45deg) scale(1);
+    } */
+        100% {
+            transform: rotate(-45deg) scale(1);
+            opacity: 1;
+        }
+    }
+</style>
